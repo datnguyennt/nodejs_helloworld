@@ -1,0 +1,28 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datnguyennt/nodejs_helloworld.git"
+  },
+  "keywords": [
+    "learn",
+    "nodejs"
+  ],
+  "author": "datnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datnguyennt/nodejs_helloworld/issues"
+  },
+  "homepage": "https://github.com/datnguyennt/nodejs_helloworld#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
